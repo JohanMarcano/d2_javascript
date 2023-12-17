@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafío 2 - JavaScript</title>
+    <link rel="stylesheet" href="./assets/css/style2.css">
+</head>
+
+<body>
+    <h1>Selecciona tus stickers</h1>
+    <div class="main">
+        <div class="sticker">
+            <img src="./assets/img/github.jpg" alt="Sticker 1">
+            <label for="cantidadSticker1">Cantidad:</label>
+            <input type="number" min="0" max="10" id="cantidadSticker1">
+        </div>
+        <div class="sticker">
+            <img src="./assets/img/slack.jpg" alt="Sticker 2">
+            <label for="cantidadSticker2">Cantidad:</label>
+            <input type="number" min="0" max="10" id="cantidadSticker2">
+        </div>
+            <div class="sticker">
+            <img src="./assets/img/git.jpg" alt="Sticker 3">
+            <label for="cantidadSticker3">Cantidad:</label>
+            <input type="number" min="0" max="10" id="cantidadSticker3">
+        </div>
+    </div>
+
+    <button onclick="calcularStickers()">Calcular</button>
+
+    <p id="resultado"></p>
+
+    <script src="./assets/js/index-2.js"></script>
+</body>
+</html>
