@@ -1,2 +1,2 @@
-# d1_javascript_intro
-Desafío 1 - Curso JavaScript - Introducción
+# d2_javascript_condiciones
+Desafío 2 - Curso JavaScript - Condiciones
